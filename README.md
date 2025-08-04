@@ -2,7 +2,7 @@
 
 > “Not your usual learning platform. NeoPi is a portal for science lovers, math freaks, and curious minds.”
 
-![NeoPi Live] (https://neopi.xyz) <!-- Replace with your own hosted banner -->
+⚡[NeoPi Live](https://neopi.xyz)
 
 ---
 

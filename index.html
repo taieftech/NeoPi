@@ -1,0 +1,852 @@
+<html lang="en"><head>
+<title>NeoPi — AI Practice Platform for Olympiad Enthusiasts | Math, Physics, Informatics</title>
+<meta name="description" content="NeoPi — the AI-powered platform for Olympiad learners. Practice Math, Physics, and Science Olympiad problems with instant feedback and solutions.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "NeoPi",
+  "alternateName": "NeoPi.xyz",
+  "url": "https://neopi.xyz",
+  "logo": "https://neopi.xyz/favicon.ico",
+  "sameAs": [
+    "https://www.youtube.com/@green-tamg2694",
+    "https://www.instagram.com/taief36",
+    "https://www.facebook.com/share/16BSJYYxma/"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Taief",
+    "sameAs": "https://www.youtube.com/@green-tamg2694"
+  },
+  "description": "NeoPi is an AI-powered platform for Olympiad students. It provides interactive calculators, contests, and learning tools for Math, Physics, and other STEM topics.",
+  "foundingDate": "2024-01-01",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "BD"
+  }
+}
+</script>
+
+<link rel="icon" href="/favicon.ico" type="image/png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1882089284188353"
+     crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KE2SRYJYM9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KE2SRYJYM9');
+</script>
+
+<meta name="keywords" content="Olympiad problem solving, International Mathematical Olympiad, AI Olympiad platform, Math Olympiad preparation, Physics Olympiad, Olympiad calculator, integration bee, BdPhO preparation, STEM AI, AI for students">
+<meta name="robots" content="index, follow" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta property="og:title" content="NeoPi — AI Olympiad Practice" />
+<meta property="og:site_name" content="NeoPi" />
+<meta property="og:url" content="https://neopi.xyz" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://neopi.xyz/favicon.ico" />
+<meta property="og:description" content="AI-powered Olympiad practice platform for Math, Physics, and Science." />
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+   @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&display=swap');
+
+      background: linear-gradient(to bottom right, #000, #2d0263);
+      color: white;
+      overflow-x: hidden;
+    }
+
+.NeoPi-button {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(142, 148, 251, 0.7);
+}
+ 
+ 
+  section {
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #F0F0F0; /* light text */
+  }
+  section h2 {
+    color: #00FFFF; /* neon cyan */
+    text-shadow: 0 0 8px #00FFFF;
+    margin-bottom: 10px;
+  }
+  section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  section ul li::before {
+    content: "✔️ ";
+    color: #FF6A00; /* neon orange */
+    text-shadow: 0 0 6px #FF6A00;
+  }
+  section blockquote {
+    margin: 10px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1); /* subtle transparent white */
+    border-left: 4px solid #00FFFF;
+    box-shadow: 0 0 12px #00FFFF;
+    font-style: italic;
+    color: #e0e0e0;
+  }
+
+
+
+.NeoPi-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(142, 148, 251, 1);
+}
+
+.NeoPi-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 15px rgba(142, 148, 251, 0.9);
+}
+
+ .typewriter {
+      font-family: monospace;
+      font-size: 0.8em;
+      color: #00ffe7;
+      display: inline-block;
+    }
+
+    .typewriter::after {
+      content: '|';
+      color: #00ffe7;
+      animation: blinkCursor 0.7s infinite;
+    }
+
+    @keyframes blinkCursor {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    }
+    nav h1 {
+      color: #00faff;
+      font-size: 1.5rem;
+    }
+    nav .links a {
+      margin-left: 1rem;
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    nav .links a:hover {
+      color: #00faff;
+    }
+    header {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      animation: floatText 2s ease-in-out infinite;
+    }
+    header h1 {
+      font-size: 3rem;
+      background: linear-gradient(to right, #00faff, #ff00c8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      margin-top: 1rem;
+      color: #ccc;
+      font-size: 1.2rem;
+    }
+    header button {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: #00faff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    header button:hover {
+      background: #ff00c8;
+    }
+  /* Marquee Section */
+        .marquee {
+            background: #0b0d2b;
+            padding: 1rem;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .marquee span {
+            display: inline-block;
+            font-size: 1.2rem;
+            color: #00f5d4;
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(50%); }
+            100% { transform: translateX(-100%); }
+        }
+    section {
+      padding: 5rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #00faff;
+    }
+    .features, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: rgba(255,255,255,0.15);
+      padding: 2rem;
+      border-radius: 1rem;
+      transition: transform 0.3s;
+    }
+   .card:hover {
+            transform: translateY(-15px) rotate(2deg);
+            border: 2px solid #00f5d4;
+            box-shadow: 0 0 40px rgba(0, 245, 212, 0.7);
+    }
+    .card i {
+      font-size: 2rem;
+      color: #ff00c8;
+      margin-bottom: 1rem;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      color: #ccc;
+    }
+    form {
+      background: rgba(255,255,255,0.05);
+      padding: 2rem;
+      border-radius: 1rem;
+      text-align: center;
+    }
+    form input {
+      padding: 1rem;
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      background: #333;
+      color: white;
+    }
+    form button {
+      padding: 1rem 2rem;
+      background: #ff00c8;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+ 
+.neopi-footer {
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  padding: 30px 15px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.footer-brand {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #f0f0f0;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #00ffd0;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #00ffd0;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  font-size: 13px;
+  color: #888;
+  margin-top: 10px;
+}
+#particles-js {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at center, #0d0221 0%, #0a0016 100%);
+  z-index: -1;
+}
+
+
+.join-section {
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.join-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.join-section p {
+  margin-bottom: 20px;
+  color: #00faff;
+}
+
+.join-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.join-section input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.join-section button {
+  padding: 10px 30px;
+  background-color: #00faff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-section button:hover {
+  background-color: #00cfd1;
+}
+
+#form-message {
+  margin-top: 10px;
+  color: #00ff88;
+}
+@keyframes floatText {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(+15px); }
+      100% { transform: translateY(0); }
+ }
+
+
+
+  </style>
+  </head>
+
+<body>
+<div id="particles-js"><canvas class="particles-js-canvas-el" width="1081" height="12453" style="width: 100%; height: 100%;"></canvas></div>
+
+  <nav>
+    <h1>
+
+  <div class="typewriter" id="typewriter">NeoPi- Olympiad Problem Solving</div>
+
+  <script>
+    const words = ["NeoPi!", "Unity of Thinkers", "Creative ideas", "Change Makers"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let typing = true;
+
+    const typewriterEl = document.getElementById("typewriter");
+
+    function type() {
+      const currentWord = words[wordIndex];
+      if (typing) {
+        typewriterEl.textContent = currentWord.slice(0, ++charIndex);
+        if (charIndex === currentWord.length) {
+          typing = false;
+          setTimeout(type, 1200); // pause before deleting
+          return;
+        }
+      } else {
+        typewriterEl.textContent = currentWord.slice(0, --charIndex);
+        if (charIndex === 0) {
+          typing = true;
+          wordIndex = (wordIndex + 1) % words.length;
+        }
+      }
+      setTimeout(type, typing ? 120 : 80);
+    }
+
+    type();
+  </script></h1>
+    <div class="links">
+      <table>
+      <tbody><tr><td><a href="#about"><b>About</b></a></td>
+       <td><a href="#features"><b>Features</b></a></td></tr>
+      <tr><td><a href="#testimonials"><b>Testimonials</b></a></td>
+      <td><a href="#join"><b>Join</b></a></td></tr>
+      </tbody></table>
+    </div>
+  </nav>
+ 
+  <header>
+    <div>
+      <h1>NeoPi- Smarter Problem Solving</h1>
+      <p>AI-powered. Human-driven. Limitless possibilities.</p>
+      <a href="https://stemcontests.pages.dev"><button>🚀 Join Contests</button></a>
+    </div>
+  </header>
+  <section id="about">
+    <h2 class="section-title">Our Mission</h2>
+    
+    <div align="center">
+    <a href="https://drive.google.com/file/d/19Jiyp5nB5SZ5LUTZ_uHnOZk9tLt4vVA8/view?usp=drivesdk"><button class="NeoPi-button">🌟 Download Our Smooth and<br>🔅0.5MB NeoPi App</button></a>
+    </div>
+     <!-- Marquee -->
+    <div class="marquee">
+      <span>🌟 You can directly contact us if you have any questions or suggestions! 🌟 Join the latest weekly contests now to sharpen your mind! 🌟</span> 
+    </div>
+    <p style="text-align: center; max-width: 800px; margin: auto; color: #ccc;">
+     </p><section>
+  <h2>🧠 How NeoPi Empowers Olympiad Enthusiasts with AI</h2>
+  <p>If you're a passionate Olympiad enthusiast — in math, physics, computer science, or any science field — you know the struggle:</p>
+  <ul>
+    <li>Finding meaningful practice problems</li>
+    <li>Getting instant, reliable solutions</li>
+    <li>Staying motivated in a competitive world</li>
+  </ul>
+  <p><strong>That’s why we built NeoPi.</strong></p>
+  <p>NeoPi isn’t just another platform.<br>
+  It’s an AI-powered learning hub designed <strong>for Olympiad learners, by Olympiad learners.</strong></p>
+  <ul>
+    <li>✅ Solve challenging Olympiad-level problems with AI feedback</li>
+    <li>✅ Explore curated problem sets for Physics, Math, and Informatics Olympiads. Just ask NeoPiGPT</li>
+    <li>✅ Get instant explanations and hints powered by intelligent algorithms and Olympiad Enthusiasts</li>
+    <li>✅ Join a community of Olympiad enthusiasts from around the world</li>
+  </ul>
+  <blockquote>“NeoPi is like having a personal Olympiad coach — available 24/7.”</blockquote>
+  <p>Whether you’re aiming for IMO, IPhO, IOI, or national contests,<br>
+  <strong>NeoPi helps you practice smarter and go further.</strong></p>
+</section>
+
+<hr>
+
+<section>
+  <h2>🎯 Meet NeoPiGPT — Your Multi-Mode AI Companion</h2>
+  <p>NeoPi brings you <strong>NeoGPT</strong> — the AI that adapts to your needs!</p>
+  <ul>
+      <li>💡 <strong>Exam Mode:</strong> Brainstorm with Olympiad level puzzles, concepts and Contests in just one click! Ask NeoPiGPT</li>
+    <li>😂 <strong>Funny Mode:</strong> Get jokes, memes, and witty AI responses when you need a break.</li>
+    <li>📖 <strong>Religious Mode:</strong> Dive into spiritual insights and answers based on sacred texts.</li>
+    <li>📚 <strong>Problem Solving Mode:</strong> Tackle tough Math, Physics, and CS problems with AI assistance.</li>
+    <li>💡 <strong>Idea Mode:</strong> Brainstorm creative ideas, projects, and startup concepts.</li>
+    <li>🧘 <strong>Holistic review Mode:</strong> Get Ready for the college application with authentic judgement and get the best advice to grow!</li>
+  </ul>
+  <p><strong>NeoGPT — More than an AI, it's your companion in every mode.</strong></p>
+</section>
+
+<p></p><br>
+   
+  </section>
+  <section id="features">
+    <h2 class="section-title">Core Features</h2>
+    <div class="features">
+     <a href="https://neopigpt.pages.dev" class="card" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-rocket"></i>
+  <h3>👽 NeoPiGPT</h3>
+  <p>An Advanced, unique & very personal AI that Makes you religious, smarter and faster!</p>
+</a>
+
+      <a href="https://numbercombinations.pages.dev" class="card" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-rocket"></i>
+  <h3>📟 Number World</h3>
+  <p>Dive into the world of Number Theory and Combinatorics. </p>
+</a>
+<a href="https://forms.gle/v175o4doJicoTHdM9" class="card" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-rocket"></i>
+  <h3>🎯 Apply for Enrollment</h3>
+  <p> Practice and Learn problem solving in the group of various national Olympiad participants. </p>
+</a>
+<a href="https://neopiquestions.pages.dev" class="card" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-rocket"></i>
+  <h3>🔥 Olympiad Problems</h3>
+  <p>Explore the Olympiad problems from the world-class competitions.
+</p>
+</a>
+<a href="https://wolframalpha.com" class="card" style="text-decoration: none; color: inherit;">
+  <i class="fas fa-rocket"></i>
+  <h3>🧮 Computing World</h3>
+  <p>Wolfram Alpha: knowledge meets computational intelligence instantly.
+</p>
+</a>
+
+
+
+    </div>
+  </section>
+  <section id="testimonials">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="testimonials">
+      <div class="card">
+        
+        <p>“Many interesting points are there. The most interesting point is, NeoPiGPT can actually use the best theorem as needed. Like I was trying to solve a problem and I was literally stucked there, no idea what to do. But then it resolved it with Legendre's theorem in the most efficient way giving me new ideas as well. It really provides some of the best resources!”</p>
+        <h4 style="margin-top: 1rem; color: #00faff;">— A National MO contestant</h4></div>
+        <div class="card">
+        
+        <p>“Wow!! Better than expected. Awesome experimental calculators! Specially NeoPiGPT AI (though A bit slow) With it's great problem solving mode takes it to another level!”</p>
+        <h4 style="margin-top: 1rem; color: #00faff;">— An IPhO Participant</h4></div>
+        <div class="card">
+        <p>“This platform changed how I think about learning system. The most impressive part is, It's u, made by a high school, an APMO participant student.”</p>
+        <h4 style="margin-top: 1rem; color: #00faff;">— A BdMO NT winner</h4></div>
+      </div><br>
+      <div class="card">
+        <p>“Its truly aesthetic! A combination of tech, religious knowledge and creativity. Ngl, It's really up to the mark! Inspiring.”</p>
+        <h4 style="margin-top: 1rem; color: #00faff;">— An OI Participant</h4>
+      </div>
+    </div>
+  </section>
+  <section id="join" class="join-section">
+  <h2>Join the Revolution</h2>
+  <p>The Group Of The Best Brains Of The Nation. OneTrust!</p>
+  <a href="https://forms.gle/Wofu8tXsQWaxmQw58">
+  <form id="signup-form">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <button type="submit">Sign Up</button>
+    <p id="form-message"></p>
+  </form></a>
+</section>
+
+  <footer class="neopi-footer">
+  <div class="footer-top">
+    <div class="footer-brand">🌐 NeoPi</div>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/share/1EAD8vwmBw/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/@green-tamg2694" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      <a href="https://instagram.com/taief36" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <a href="https://docs.google.com/document/d/1hRJEVsSEfKZ4Qpff_2RK23z8aFh9nCI5PQbx-RvkbLg/edit?usp=drivesdk">Terms of Use</a>
+    <a href="https://docs.google.com/document/d/1hq9NHz84I_bxXE52I-QM065YBr4TNzcf51y0wwrgcR8/edit?usp=drivesdk">Privacy Policy</a>
+    <a href="maitlto: greentamg@gmail.com">Contact</a>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2025 <strong>NeoPi</strong>. All rights reserved.
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+ 
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80 },
+      color: { value: "#00faff" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 3 },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#00faff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 2,
+        direction: "none",
+        random: false,
+        straight: false,
+        bounce: true
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      },
+      modes: {
+        repulse: { distance: 100 },
+        push: { particles_nb: 4 }
+      }
+    },
+    retina_detect: true
+  });
+
+</script>
+
+
+
+<script>
+  const form = document.getElementById('signup-form');
+  const nameInput = document.getElementById('name');
+  const emailInput = document.getElementById('email');
+  const message = document.getElementById('form-message');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+
+    if (name && email) {
+      // Here you can send data to server or an API
+      message.textContent = "✅ Thanks for signing up, " + name + "!";
+      form.reset();
+    } else {
+      message.textContent = "❌ Please fill out all fields.";
+    }
+  });
+  
+</script>
+  </script>
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "de691cee-eb6d-4cf5-ba5c-b6a43641471b",
+    });
+  });
+</script>
+
+
+<!-- Messenger-style XP Bubble -->
+<div id="xp-bubble">
+  <div id="xp-bubble-text">Lv 1<br>0 XP</div>
+  <div id="xp-popup" style="display: none;"></div>
+</div>
+
+<style>
+  #xp-bubble {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    cursor: grab;
+    user-select: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #xp-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    background: orange;
+    color: black;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 14px;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 10000;
+  }
+</style>
+
+<script>
+  const levels = [
+    { level: 1, xp: 150 },
+    { level: 2, xp: 250 },
+    { level: 3, xp: 550 },
+    { level: 4, xp: 1000 },
+    { level: 5, xp: 2000 },
+    { level: 6, xp: 5000 },
+    { level: 7, xp: 10000 },
+    { level: 8, xp: 16000 },
+    { level: 9, xp: 30000 },
+    { level: 10, xp: 50000 }
+  ];
+
+  function getXP() {
+    return parseInt(localStorage.getItem("xp") || "0");
+  }
+
+  function setXP(xp) {
+    localStorage.setItem("xp", xp);
+  }
+
+  function addXP(amount) {
+    const current = getXP();
+    setXP(current + amount);
+    updateUI();
+  }
+
+  function getLevel(xp) {
+    let level = 1;
+    for (let i = 0; i < levels.length; i++) {
+      if (xp >= levels[i].xp) level = levels[i].level;
+      else break;
+    }
+    return level;
+  }
+
+  function updateUI() {
+    const xp = getXP();
+    const level = getLevel(xp);
+    const next = levels.find(l => l.level === level + 1);
+    const currentXP = levels.find(l => l.level === level)?.xp || 0;
+    const nextXP = next ? next.xp : currentXP;
+    const progress = next ? ((xp - currentXP) / (nextXP - currentXP)) * 100 : 100;
+
+    document.getElementById("xp-bubble-text").innerHTML = `Level: ${level}<br>${xp} XP`;
+
+    document.getElementById("xp-popup").innerHTML = `
+      <b>Your Problem Solving & Passion Level: ${level}</b><br>
+      ${xp} XP<br>
+      <div style="background:#eee;height:8px;border-radius:5px;margin-top:5px;">
+        <div style="background:#4caf50;height:8px;width:${progress}%;border-radius:5px;"></div>
+      </div>
+      <small>${next ? `${next.xp - xp} XP to next, Participate the competitions Now!` : "🎉 Max level!"}</small>
+    `;
+  }
+
+  function initXPActions() {
+    const elements = document.querySelectorAll("button");
+    elements.forEach(el => {
+      if (
+        el.textContent.toLowerCase().includes("contest") &&
+        !el.dataset.bound
+      ) {
+        el.dataset.bound = "true";
+        el.addEventListener("click", () => {
+          addXP(50); // XP awarded per contest click
+        });
+      }
+    });
+  }
+
+  // Toggle popup
+  document.getElementById("xp-bubble").addEventListener("click", () => {
+    const popup = document.getElementById("xp-popup");
+    popup.style.display = popup.style.display === "none" ? "block" : "none";
+  });
+
+  // Drag functionality
+  const bubble = document.getElementById("xp-bubble");
+  let isDragging = false;
+  let offsetX, offsetY;
+
+  bubble.addEventListener("mousedown", e => {
+    isDragging = true;
+    offsetX = e.clientX - bubble.getBoundingClientRect().left;
+    offsetY = e.clientY - bubble.getBoundingClientRect().top;
+    bubble.style.cursor = "grabbing";
+  });
+
+  document.addEventListener("mousemove", e => {
+    if (isDragging) {
+      bubble.style.left = (e.clientX - offsetX) + 'px';
+      bubble.style.top = (e.clientY - offsetY) + 'px';
+      bubble.style.bottom = 'auto';
+      bubble.style.right = 'auto';
+      document.getElementById("xp-popup").style.display = 'none';
+    }
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+    bubble.style.cursor = "grab";
+  });
+
+  // Init on load
+  window.onload = () => {
+    updateUI();
+    initXPActions();
+    setInterval(initXPActions, 2000);
+  };
+</script>
+</body>
+
+</html>
